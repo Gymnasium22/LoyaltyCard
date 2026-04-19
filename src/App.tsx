@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LoyaltyCard">
       <AppProvider>
         <Routes>
           <Route path="/" element={<HomePage />} />
